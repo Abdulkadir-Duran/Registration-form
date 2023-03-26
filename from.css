@@ -1,0 +1,68 @@
+*{
+    
+    
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    margin: 2rem auto;
+    
+    max-width: 550px;
+    
+    background:  linear-gradient(
+    
+        hsl(180, 100%, 11%),
+        rgba(0, 0, 0, 0.75)
+      ), url("form.webp");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    background-color: blue;
+    
+
+}
+
+form input, label, select, h1 {
+    width: 100%;
+    margin: 1rem 0;
+    padding: 0.5rem 1.5rem;
+    font-size: 1.2rem;
+    border-radius: .5rem;
+    text-align: center;
+}
+form input{
+    text-align: left;
+}
+form h1{
+    font-size: 3rem;
+}
+form{
+    width: 100%;
+    margin: 0;
+    background: linear-gradient(to right, rgba(255,255,255,0.5), rgba(0,0,0,0.1));
+    border-radius: .5rem;
+    padding: 0.5rem;
+}
+form label{
+   
+    font-size: 1.5rem;
+    
+    text-align: center;
+}
+form .flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.6rem;
+    
+}
+form input[type="submit"]{
+    background: linear-gradient(to right, rgba(68, 100, 4, 0.75), 
+    rgb(43, 255, 0));
+    outline: none;
+    border: none;
+    text-align: center;
+}
